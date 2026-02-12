@@ -1,3 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Main Section */
+main {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 /* Header Section */
 header {
   background: linear-gradient(90deg, #03183f, #2a5298);
@@ -22,6 +42,45 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+/* Sections */
+section {
+  background: white;
+  padding: 25px;
+  border-radius: 6px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #2a5298;
+}
+
+/* About */
+#about p {
+  margin-bottom: 10px;
+}
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #2a5298;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+/* Footer section */
 
 footer {
   background: linear-gradient(#03183f, #2a5298);
